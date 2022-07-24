@@ -11,7 +11,7 @@ function App() {
       <nav>
         <ul>
           <li>
-            <a href="home">홈</a>
+            <a href="/">홈</a>
           </li>
           <li>
             <a href="profile">프로필</a>
@@ -22,7 +22,6 @@ function App() {
         </ul>
       </nav>
       <Routes>
-        <Route path="/home" element={<Profile />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/board" element={<Board />} />
       </Routes>
